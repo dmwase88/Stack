@@ -66,9 +66,15 @@ a {
   position: absolute;
   left: 17%;
 }
+.vertical2 {
+  border-left: 1px solid rgb(128, 123, 123);
+  height: 600px;
+  position: absolute;
+  right: 17%;
+}
 #sidepanel a {
   text-decoration: none;
-  padding: 10px;
+
   margin: 20px;
 }
 #sidepanel li {
@@ -77,5 +83,5 @@ a {
 #sidepanel ul li a:hover {
   background-color: bisque;
   color: black;
-  border-radius: 10%;
+  border-radius: 6%;
 }
