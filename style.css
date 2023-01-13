@@ -95,3 +95,7 @@ a {
 #leftpanel a:hover {
   background-color: bisque;
 }
+#content-area {
+  display: flex;
+  justify-content: space-between;
+}
