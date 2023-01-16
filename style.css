@@ -51,17 +51,31 @@
 a {
   color: black;
 }
-.lightblue:hover {
-  color: lightblue;
+.lightblue {
+  background-color: hsl(205deg 41% 63%);
+  color: white;
   cursor: pointer;
   border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid hsl(205deg 41% 63%);
 }
 
-.skyblue:hover {
-  background-color: skyblue;
-  color: aliceblue;
+.lightblue:hover {
+  background-color: hsl(205deg 47% 42%);
+}
+
+.skyblue {
+  background-color: hsl(206deg 100% 52%);
+  color: white;
   border-radius: 5px;
   cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid hsl(206deg 100% 52%);
+}
+.skyblue:hover {
+  background-color: rgb(28, 111, 174);
 }
 
 .container {
@@ -98,4 +112,19 @@ a {
 #content-area {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px grey solid;
+  padding: 20px;
+}
+#question {
+  background-color: hsl(206deg 100% 52%);
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid hsl(206deg 100% 52%);
+  border-radius: 4%;
+}
+#question:hover {
+  background-color: rgb(28, 111, 174);
 }
