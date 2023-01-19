@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body html {
+  font-family: Verdana, Verdana, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .antiquewhite {
   background-color: antiquewhite;
 }
@@ -40,7 +44,7 @@
 }
 #topnav ul li:hover {
   background-color: rgba(33, 32, 32, 0.312);
-  color: black;
+  color: rgb(69, 194, 196);
   border-radius: 10%;
 }
 
@@ -127,4 +131,68 @@ a {
 }
 #question:hover {
   background-color: rgb(28, 111, 174);
+}
+#questions-asked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  justify-content: space-between;
+  border-bottom: 1px grey solid;
+}
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th,
+td {
+  border: 1px solid rgb(17, 16, 16);
+  text-align: center;
+  font-weight: normal;
+  padding: 8px;
+}
+
+th:hover {
+  background-color: rgba(167, 184, 200, 0.511);
+}
+
+th {
+  background-color: whitesmoke;
+}
+
+th a {
+  text-decoration: none;
+  color: black;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: large;
+}
+.header {
+  color: hsl(206deg 100% 52%);
+  padding: 10px;
+}
+.article {
+  border-bottom: 1px grey solid;
+  padding: 10px;
+}
+#pagination {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+#pagination a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+
+#pagination button:hover {
+  background-color: hsl(27deg 90% 55%);
+  border: 2px solid hsl(27deg 90% 55%);
 }
