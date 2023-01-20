@@ -18,6 +18,11 @@ body html {
   padding: 32px 10vw;
 }
 
+.search {
+  padding: 5px;
+  width: 90%;
+}
+
 #topbar {
   display: flex;
   justify-content: space-between;
@@ -193,6 +198,10 @@ h5 {
 }
 
 #pagination button:hover {
+  background-color: hsl(27deg 90% 55%);
+  border: 2px solid hsl(27deg 90% 55%);
+}
+.current {
   background-color: hsl(27deg 90% 55%);
   border: 2px solid hsl(27deg 90% 55%);
 }
