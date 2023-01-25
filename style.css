@@ -109,6 +109,41 @@ a {
   width: 30%;
 }
 
+#rightpanel h5 {
+  text-align: left;
+  background-color: rgb(238, 227, 191);
+  border-bottom: 1px solid rgb(217, 211, 40);
+  padding: 8px;
+}
+
+.h5 {
+  font-weight: bold;
+  text-align: left;
+  font-size: small;
+  background-color: rgb(216, 205, 170);
+}
+
+.message {
+  text-align: left;
+  background-color: rgb(234, 221, 179);
+  border-bottom: 1px solid rgb(217, 211, 40);
+  padding: 8px;
+}
+.message li {
+  text-align: left;
+  background-color: rgb(234, 221, 179);
+  border-bottom: 1px solid rgb(217, 211, 40);
+  padding: 8px;
+  list-style: inside;
+}
+
+.message ul li {
+  text-align: left;
+  background-color: rgb(234, 221, 179);
+  border-bottom: 1px solid rgb(217, 211, 40);
+  padding: 8px;
+}
+
 #content {
   width: 45%;
 }
