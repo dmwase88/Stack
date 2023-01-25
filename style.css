@@ -299,7 +299,11 @@ h3 {
   padding: 10px;
 }
 .bg {
-  align-items: center;
+  max-width: 100%;
+}
+
+.bg img {
+  width: 100%;
 }
 
 .ask {
