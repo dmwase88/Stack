@@ -73,6 +73,9 @@ a {
 .lightblue:hover {
   background-color: hsl(205deg 47% 42%);
 }
+.lightblue a {
+  text-decoration: none;
+}
 
 .skyblue {
   background-color: hsl(206deg 100% 52%);
@@ -85,6 +88,10 @@ a {
 }
 .skyblue:hover {
   background-color: rgb(28, 111, 174);
+}
+
+.skyblue a {
+  text-decoration: none;
 }
 
 .container {
@@ -134,6 +141,11 @@ a {
   border: 2px solid hsl(206deg 100% 52%);
   border-radius: 4%;
 }
+
+#question a {
+  text-decoration: none;
+}
+
 #question:hover {
   background-color: rgb(28, 111, 174);
 }
@@ -204,4 +216,103 @@ h5 {
 .current {
   background-color: hsl(27deg 90% 55%);
   border: 2px solid hsl(27deg 90% 55%);
+}
+
+a {
+  text-decoration: 1;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px;
+  color: hsl(206deg 100% 52%);
+}
+
+#container {
+  margin: 30px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-wrap {
+  background: blanchedalmond;
+  padding: 15px 25px;
+  color: #333;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  color: #666;
+}
+
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #3558ae;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-wrap button:hover {
+  background: hsl(206deg 100% 52%);
+}
+
+.form-wrap .bottom-text {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.q-area {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ebf4fb;
+  padding: 24px;
+  margin-top: 30px;
+  border: 1px solid hsl(206deg 100% 52%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.q-area ul li {
+  padding: 8px;
+}
+h3 {
+  padding: 10px;
+}
+.bg {
+  align-items: center;
+}
+
+.ask {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20;
+}
+
+#quest {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.btn-ask {
+  padding-bottom: 30px;
 }
